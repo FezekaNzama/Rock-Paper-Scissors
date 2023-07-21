@@ -1,5 +1,5 @@
 module com.fezekanzama {
-    requires javafx.controls;
+    requires transitive javafx.controls;
     requires javafx.fxml;
 
     opens com.fezekanzama to javafx.fxml;
