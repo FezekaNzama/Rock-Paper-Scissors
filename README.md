@@ -1,11 +1,28 @@
 # Rock-Paper-Scissors
 Simple game rock, paper, scissors game. This game can be played with two humans or with a Bot and a human.
 
-The backend system was built using Java. The frontend was built with the JavaFX API, and a simple css stylesheet was used for styling. This project is managed by Maven, and at least JDK 11 is required to launch it. 
+The technologies used here-in are Java, JavaFX, Maven and CSS. Java, and javaFX were used to build this application to allow for practice developing both in java and making use of the javaFX GUI package. These technologies were of interest to me due to their use in imbedded systems. Whilst CSS was used to style various app components. 
 
-To launch - from App.java run java.
+### Install and Run the Project:
+#### Pre-requisites
+- Java JDK 11 or up
+- Maven
+  
+### Run (VScode was the IDE used in development of this app):
+- Ensure that the Extension pack for Java and Maven for Java extensions are installed on your instance of VScode.
+- Open the project folder in VScode
+- In the terminal window type "mvn clean javafx:run"
 
-See below for screenshots of the app:
+### MIT License
+Copyright (c) 2023, Fezeka Nzama
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+### In Game Screenshots
 
 ![Screenshot (209)](https://github.com/FezekaNzama/Rock-Paper-Scissors/assets/55462056/9998b150-467a-4dc2-ac16-60d59f4568d5)
 
